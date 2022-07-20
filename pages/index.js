@@ -1,9 +1,11 @@
 import styles from '../styles/Home.module.css'
 import { getHeroItem } from "../lib/kontentClient";
+import { Menu } from '../components/menu';
 
 export default function Home({ heroItem }) {
   return (
     <main >
+      <Menu></Menu>
       <div className={styles.hero}>
         <h1 className="append-dot">{heroItem.headline}</h1>
         <div className={styles.summary} dangerouslySetInnerHTML={{ __html: heroItem.summary }}>

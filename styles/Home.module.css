@@ -13,3 +13,34 @@
   text-align: center;
   font-weight: bold;
 }
+
+.contenedor ul{
+  list-style:none;
+}
+
+.contenedor ul li a{
+  text-decoration:none;
+  color:#424242;
+}
+.contenedor ul li a:hover{
+  font-weight:bold;
+}
+
+.menuI > li{
+  display:inline-block;
+}
+
+.menuI > li > a{
+  display:block;
+  padding:5px;
+  width:90px;
+}
+
+
+
+.menuD a{
+  display:block;
+  padding:2px;
+
+}
+
